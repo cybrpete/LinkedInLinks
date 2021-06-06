@@ -21,7 +21,7 @@ function show_links() {
   for (j=0; j<lnk_str.length; j+=1) {
     // Only adding search string matches to the table. Change linkedin to
     // string of choice.
-    if (lnk_str[j][0].match("linkedin")!==null) {
+    if (lnk_str[j][0].match("linkedin.com")!==null) {
       table += "<tr><td>"+ (lnk_str[j][0]).link(lnk_str[j][0]) +"</td></tr>";
     }
   }
